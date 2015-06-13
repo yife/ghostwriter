@@ -2,7 +2,7 @@
 // Colours //
 // ============================================================ //
 
-$primary: #F03838;
+$primary: #59B798;
 $secondary: #303030;
 $background: #FEFEFE;
 
@@ -87,6 +87,7 @@ img {
     margin: 40px 0;
     width: auto;
     max-width: 100%;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
 }
 
 pre {
@@ -148,6 +149,11 @@ table {
         display: table;
         clear: both;
     }
+}
+
+mark {
+    background-color: #CDFFD1;
+    border-radius: 5px;
 }
 
 /* ============================================================ */
@@ -257,7 +263,11 @@ table {
 
 #latest-post { display: none; }
 
-.post-container { margin: 0 40px; }
+.post-container { 
+    margin: 0 40px;
+    background-color: rgba(254, 254, 254, 0.44);
+    box-shadow: 0px 0px 20px 20px rgba(254, 254, 254, 0.44);
+ }
 
 .post-header {
     border-bottom: 6px solid $secondary;
@@ -290,10 +300,10 @@ table {
     a:hover { color: $primary; }
 
     &:after {
-        border-bottom: 1px dotted $secondary;
+//        border-bottom: 1px dotted $secondary;
         content: "";
         display: block;
-        margin: 40px auto 0;
+//        margin: 40px auto 0;
         width: 100px;
     }
 }
@@ -701,4 +711,14 @@ table {
     }
 
     .footer-copyright { padding: 0 10px; }
+}
+
+/* ============================================================ */
+/* Particles js */
+/* ============================================================ */
+
+.particles-js-canvas-el {
+    position: fixed;
+    z-index: -9999;
+    top: 0px;
 }

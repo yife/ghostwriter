@@ -24,8 +24,9 @@
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
-
+<div id="particles-js">
     <div id="wrapper">
+        
         <header class="site-header">
             <div class="container">
                 <div class="site-title-wrapper">
@@ -53,9 +54,9 @@
     
         <div id="ajax-container">
             {{{body}}}
-        </div>
+        </div>      
     </div>
-
+</div>
     <footer class="footer">
         <div class="container">
             <div class="site-title-wrapper">
@@ -81,6 +82,13 @@
     <script type="text/javascript" src="{{asset "js/nprogress.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/scripts.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/jquery.72seasons.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/particles.min.js"}}"></script>	
+    <script type="text/javascript">
+        particlesJS.load("particles-js", "{{asset 'json/particles.json'}}", function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
 
 </body>
 </html>

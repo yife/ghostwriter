@@ -41,7 +41,7 @@ p {
   margin: 0 0 30px; }
 
 a {
-  color: #F03838;
+  color: #59B798;
   text-decoration: none; }
 
 ul, ol {
@@ -84,7 +84,8 @@ img {
   display: block;
   margin: 40px 0;
   width: auto;
-  max-width: 100%; }
+  max-width: 100%;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8); }
 
 pre {
   background: #F1F0EA;
@@ -135,6 +136,10 @@ table {
   display: table;
   clear: both; }
 
+mark {
+  background-color: #CDFFD1;
+  border-radius: 5px; }
+
 /* ============================================================ */
 /* General Appearance */
 /* ============================================================ */
@@ -165,10 +170,10 @@ table {
   padding: 10px 12px;
   text-transform: uppercase; }
   .button:hover {
-    background: #F03838; }
+    background: #59B798; }
 
 .button-square {
-  background: #F03838;
+  background: #59B798;
   color: #FFF;
   float: left;
   font-size: 17px;
@@ -198,7 +203,7 @@ table {
   text-transform: uppercase; }
   .site-title a {
     float: left;
-    background: #F03838;
+    background: #59B798;
     color: #FEFEFE;
     padding: 5px 10px 6px; }
     .site-title a:hover {
@@ -228,7 +233,9 @@ table {
   display: none; }
 
 .post-container {
-  margin: 0 40px; }
+  margin: 0 40px;
+  background-color: rgba(254, 254, 254, 0.44);
+  box-shadow: 0px 0px 20px 20px rgba(254, 254, 254, 0.44); }
 
 .post-header {
   border-bottom: 6px solid #303030;
@@ -260,17 +267,15 @@ table {
     color: #AEADAD; }
   .post-date a:hover,
   .blog-description a:hover {
-    color: #F03838; }
+    color: #59B798; }
   .post-date:after,
   .blog-description:after {
-    border-bottom: 1px dotted #303030;
     content: "";
     display: block;
-    margin: 40px auto 0;
     width: 100px; }
 
 .post-content a:hover {
-  border-bottom: 1px dotted #F03838;
+  border-bottom: 1px dotted #59B798;
   padding: 0 0 2px; }
 .post-content:last-child {
   margin-bottom: 0; }
@@ -295,7 +300,7 @@ table {
 .share {
   float: right; }
   .share a {
-    background: #F03838;
+    background: #59B798;
     color: #FFF;
     display: inline-block;
     font-size: 16px;
@@ -313,7 +318,7 @@ table {
 .newer-posts,
 .older-posts {
   float: left;
-  background: #F03838;
+  background: #59B798;
   color: #FEFEFE;
   font-size: 14px;
   font-weight: 600;
@@ -351,10 +356,10 @@ table {
     padding: 20px 5px; }
     .post-stub a:hover {
       background: #FCF5F5;
-      color: #F03838;
+      color: #59B798;
       padding: 20px 12px; }
       .post-stub a:hover .post-stub-tag {
-        background: #F03838; }
+        background: #59B798; }
 
 .post-stub-tag {
   background: #303030;
@@ -430,7 +435,7 @@ table {
   .author-meta a {
     color: #AEADAD; }
   .author-meta a:hover {
-    color: #F03838; }
+    color: #59B798; }
 
 .author-bio {
   margin: 20px auto 0;
@@ -472,14 +477,14 @@ table {
 /* NProgress */
 /* ============================================================ */
 #nprogress .bar {
-  background: #F03838; }
+  background: #59B798; }
 
 #nprogress .peg {
-  box-shadow: 0 0 10px #F03838, 0 0 5px #F03838; }
+  box-shadow: 0 0 10px #59B798, 0 0 5px #59B798; }
 
 #nprogress .spinner-icon {
-  border-top-color: #F03838;
-  border-left-color: #F03838; }
+  border-top-color: #59B798;
+  border-left-color: #59B798; }
 
 /* ============================================================ */
 /* Media Queries */
@@ -619,5 +624,12 @@ table {
 
   .footer-copyright {
     padding: 0 10px; } }
+/* ============================================================ */
+/* Particles js */
+/* ============================================================ */
+.particles-js-canvas-el {
+  position: fixed;
+  z-index: -9999;
+  top: 0px; }
 
 /*# sourceMappingURL=style.css.map */
