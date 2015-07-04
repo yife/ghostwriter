@@ -204,7 +204,8 @@ mark {
   font-size: 14px;
   font-weight: 600;
   margin: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border-bottom-style: none; }
   .site-title a {
     float: left;
     background: #59B798;
