@@ -15,7 +15,7 @@ html, body { height: 100%; }
 body {
     background: $background;
     color: #424242;
-    font-family: "Open Sans", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    font-family: "Open Sans", "Hiragino Mincho ProN", "游明朝", YuMincho, Meiryo, serif;
     font-size: 18px;
 }
 
@@ -37,6 +37,7 @@ h6 { font-size: 14px; margin-bottom: 12px; }
 p {
     line-height: 1.8;
     margin: 30px 0 30px;
+    font-family: "Hiragino Mincho ProN", "游明朝", YuMincho, Meiryo, serif;
 }
 
 a {
@@ -52,7 +53,7 @@ ul, ol {
     ul, ol { margin: 10px 0 0 20px; }
 
     li {
-        margin: 0 0 10px;
+        margin: 0 0 0px;
 
         &:last-of-type { margin-bottom: 0; }
     }
