@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ============================================================ */
 /* Base */
 /* ============================================================ */
@@ -7,12 +8,15 @@ html, body {
 body {
   background: #FEFEFE;
   color: #424242;
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Open Sans", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
   font-size: 18px; }
 
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 42px;
   margin-bottom: 33px;
-  text-transform: none; }
+  text-transform: none;
+  border-bottom-width: thin;
+  border-bottom-style: groove; }
 
 h1 {
   font-size: 26px; }
@@ -250,7 +254,8 @@ mark {
   font-weight: 700;
   margin: 15px 0;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border-bottom-style: none; }
 
 .page-title {
   margin: 15px 40px; }
