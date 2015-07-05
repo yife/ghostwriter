@@ -252,11 +252,10 @@ mark {
 
 .post-title,
 .page-title {
-  font-size: 52px;
+  font-size: 38px;
   font-weight: 700;
   margin: 15px 0;
   text-align: center;
-  text-transform: uppercase;
   border-bottom-style: none; }
 
 .page-title {
