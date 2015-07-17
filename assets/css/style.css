@@ -43,7 +43,8 @@ h6 {
 p {
   line-height: 1.8;
   margin: 30px 0 30px;
-  font-family: "Hiragino Mincho ProN", "游明朝", YuMincho, Meiryo, serif; }
+  font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+  font-size: medium; }
 
 a {
   color: #59B798;
